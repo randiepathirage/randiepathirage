@@ -1,26 +1,23 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'randiepathirage@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/randiepathirage',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      name: 'Medium',
+      url: 'https://medium.com/@randiepathirage',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: 'Behance',
+      url: 'https://www.behance.net/randiepathirage',
     },
+
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/randie-pathirage-672945189/',
     },
   ],
 
@@ -34,7 +31,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
