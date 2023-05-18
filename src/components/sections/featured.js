@@ -41,7 +41,7 @@ const StyledProject = styled.li`
 
   &:nth-of-type(odd) {
     .project-content {
-      grid-column: 7 / -1;
+      grid-column: 3 / -1;
       text-align: right;
 
       @media (max-width: 1080px) {
@@ -83,7 +83,7 @@ const StyledProject = styled.li`
       }
     }
     .project-image {
-      grid-column: 1 / 8;
+      grid-column: 1 / 5;
 
       @media (max-width: 768px) {
         grid-column: 1 / -1;
@@ -93,7 +93,7 @@ const StyledProject = styled.li`
 
   .project-content {
     position: relative;
-    grid-column: 1 / 7;
+    grid-column: 1 / 10;
     grid-row: 1 / -1;
 
     @media (max-width: 1080px) {
@@ -242,7 +242,7 @@ const StyledProject = styled.li`
 
   .project-image {
     ${({ theme }) => theme.mixins.boxShadow};
-    grid-column: 6 / -1;
+    grid-column: 9 / -1;
     grid-row: 1 / -1;
     position: relative;
     z-index: 1;
@@ -256,7 +256,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: #B8E4F0;
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -382,19 +382,9 @@ const Featured = () => {
                     )}
 
                     <div className="project-links">
-                      {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta">
-                          Learn More
-                        </a>
-                      )}
                       {github && (
                         <a href={github} aria-label="GitHub Link">
                           <Icon name="GitHub" />
-                        </a>
-                      )}
-                      {external && !cta && (
-                        <a href={external} aria-label="External Link" className="external">
-                          <Icon name="External" />
                         </a>
                       )}
                     </div>

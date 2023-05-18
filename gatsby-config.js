@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'P.D.Randie Thathsaranie',
+    title: 'Randie Pathirage',
     description:
-      'P.D.Randie Thathsaranie is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'P.D.Randie Pathirage is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'P.D.Randie Thathsaranie',
-        short_name: 'P.D.Randie Thathsaranie',
+        name: 'Randie Pathirage',
+        short_name: 'Randie Pathirage',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

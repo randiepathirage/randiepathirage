@@ -23,7 +23,7 @@ module.exports = {
 
   navLinks: [
     {
-      name: 'About',
+      name: 'Education',
       url: '/#about',
     },
     {
