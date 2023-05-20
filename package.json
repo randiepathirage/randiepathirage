@@ -1,12 +1,11 @@
 {
-  "homepage": "http://randiepathirage.github.io/randiepathirage.github.io",
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "randiePathirage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/randiepathirage/randiepathirage.github.io"
   },
   "keywords": [
     "gatsby"
@@ -17,9 +16,9 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "start": "npm run develop",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
